@@ -32,8 +32,8 @@ Users should be able to:
    
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://santirockk.github.io/ip-address-tracker/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ipaddresstracker-pixel-perfect-D1H3UyQU8e)
+- Live Site URL: [Live site](https://santirockk.github.io/ip-address-tracker/)
 
 ## My process
 
