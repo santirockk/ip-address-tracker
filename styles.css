@@ -148,12 +148,17 @@ p {
         font-weight: 500;
     }
 
+    form {
+        font-size: 18px;
+        font-weight: 400;    
+
+    }
+
     input {
         width: 497px;
         padding-top: 1px;
         padding-left: 24;
-        font-size: 19px;
-        letter-spacing: 1px;    
+        letter-spacing: 0.07px;    
     }
 
     img {

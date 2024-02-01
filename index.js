@@ -9,7 +9,7 @@ const isp = document.getElementById("isp");
 let lat = 4.597475;
 let lng = -74.074455
 
-var map = L.map('map').setView([lat + 0.0005, lng -0.0005], 17);
+var map = L.map('map').setView([lat + 0.0005, lng - 0.0005], 17);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -19,11 +19,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var iconn = L.icon({
     iconUrl: './images/icon-location.svg',
     iconSize: [46, 56],
-})
+});
 
-const marker = L.marker([lat, lng], {icon: iconn}).addTo(map);
+const marker = L.marker([lat, lng], { icon: iconn }).addTo(map);
 
-L.control.zoom({ position: 'bottomright'}).addTo(map);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
 
 async function fetchData() {
     try {
